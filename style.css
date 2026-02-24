@@ -9,13 +9,29 @@
 
    
 }
+/* shared styles */
+body{
+    margin: 0px 160px;
+}
+.btn-primary{
+     
+   background-color: #006A50 ;
+   color: white;
+   font-weight: bold;
+    font-size: 15px;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+
 /* nav styles  */
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 160px ;
+ 
 }
 .nav-title{
     font-size: 32px;
@@ -31,3 +47,19 @@ nav{
     border-color: #006A50;
     border-radius: 5px;
 }
+/* banner styles */
+.banner-title{
+    color:rgba(14, 14, 14, 0.61) ;
+    font-size: 24px;
+}
+.banner-description{
+    font-size: 56px;;
+    font-weight: bold;
+}
+.banner{
+    display: flex;
+    background-color:rgba(198, 228, 214, 1) ;
+    padding:117px 60px ;
+ 
+}
+ 
