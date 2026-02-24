@@ -14,6 +14,10 @@ body{
     margin: 0px 160px;
     background-color:rgba(245, 245, 245, 1);
 }
+.common-font-description{
+    color:rgba(14, 14, 14, 0.7) ;
+    font-size: 16px;
+}
 .section-title{
     font-size: 40px;
     font-weight: bold;
@@ -26,10 +30,13 @@ body{
     font-size: 15px;
     padding: 18px 30px;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
-
+.common-title{
+    font-size: 32px;
+    font-weight: 800;
+}
 /* nav styles  */
 
 nav{
@@ -38,10 +45,7 @@ nav{
     justify-content: space-between;
  
 }
-.nav-title{
-    font-size: 32px;
-    font-weight: 800;
-}
+
   
 .sign-btn{
    color:#006A50;
@@ -82,4 +86,83 @@ nav{
     margin-right:  24px;
 
 }
- 
+ /* vision styles */
+
+ .vision-description{
+    display: flex;
+    gap: 20px;
+    padding-right:24px;
+    margin-bottom: 32px;
+     
+ }
+ .vision-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+ }
+ .btn-primary1{
+    color:white;
+    background-color:#5490F5 ;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border:none;
+    border-radius: 15px;
+ }
+ .btn-primary2{
+    color:white;
+    background-color:#09A15C ;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border:none;
+    border-radius: 15px;
+ }
+ .btn-primary3{
+    color:white;
+    background-color:#FFC239 ;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border:none;
+    border-radius: 15px;
+ }
+ .vision-content-bg-blue{
+    background-color:#C0D1EF ;
+    padding: 32px;
+    border-radius: 15px;
+ }
+ .vision-content-bg-green{
+    background-color:#C6E4D6 ;
+    padding: 32px;
+    border-radius: 15px;
+ }
+ .vision-content-bg-tomato{
+    background-color:#F7EBCF ;
+    padding: 32px;
+    border-radius: 15px;
+ }
+ /* quotes styles */
+ .quotes p {
+  margin-bottom: 20px;
+}
+
+.quotes h4 {
+  margin-top: 0;
+}
+.quotes-description{
+   padding: 24px;
+}
+  .quote-sign {
+  background-image: url('assets/quote-bg.png'); 
+  background-repeat: no-repeat;
+  background-position: left top ;  
+  background-size:40px;
+
+ }
+ .quotes{
+    background-color: white;
+    border-radius: 15px;
+    border:1px solid #D5D6D8;
+    margin-bottom: 40px;
+ }
