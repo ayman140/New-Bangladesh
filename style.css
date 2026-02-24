@@ -1,0 +1,33 @@
+ 
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+   
+}
+/* nav styles  */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 160px ;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+  
+.sign-btn{
+   color:#006A50;
+   background-color: white;
+   font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-color: #006A50;
+    border-radius: 5px;
+}
